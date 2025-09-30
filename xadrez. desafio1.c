@@ -21,7 +21,7 @@ int main (){
         {
             printf("Esquerda \n"); // Imprime direção do movimento
             i++;
-        } while (i <= 8);
+        } while (i <= 13);
         
 
     return 0;
