@@ -2,7 +2,7 @@
 
 int main (){
      
-    int i = 1;
+    int i = 1, movimentoCompleto = 1; // Flag para controlar o movimento em 'L"
 
     // mover a Torre 5 casas para a direita
     for (int i = 0; i < 5; i++) {
@@ -22,6 +22,17 @@ int main (){
             printf("Esquerda \n"); // Imprime direção do movimento
             i++;
         } while (i <= 13);
+
+    // Mover Cavalo 2 casas para cima e 1 para o lado esquerdo
+        
+        while (movimentoCompleto--)
+         {
+            for (int i = 0; i < 2; i++) {
+                printf("Cima \n"); // Imprime "Cima" duas vezes
+            }
+            printf("Direita \n"); //Imprime "Direita" uma vez
+         }
+
         
 
     return 0;
